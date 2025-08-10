@@ -114,33 +114,74 @@
             <p class="fw-bold display-5" style="color: #5e4425">Our Products</p>
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-12 col-sm-12 p-3">
-                    <div class="card shadow rounded p-3 h-100">
-                        <img class="w-100" src="{{ asset('assets/images/bg-image/pexels-joris-neyt-512471-1337585.jpg') }}" alt="">
-                        <h4 class="mt-3">Premium Ginger</h4>
-                        <p>Premium grade fresh ginger or pre-dried whole roots. Suitable for processing, re-exports, or retail.</p>
+                    <div class="card shadow rounded p-3 h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <img class="w-100" src="{{ asset('assets/images/bg-image/pexels-joris-neyt-512471-1337585.jpg') }}" alt="">
+                            <h4 class="mt-3">Premium Ginger</h4>
+                            <p>Premium grade fresh ginger or pre-dried whole roots. Suitable for processing, re-exports, or retail.</p>
+                        </div>
+                        <button class="btn btn-warning">Request Sample</button>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 p-3">
-                    <div class="card shadow rounded p-3 h-100">
-                        <img class="w-100" src="{{ asset('assets/images/bg-image/ginger-1738098_1920.jpg') }}" alt="">
-                        <h4 class="mt-3">Dried Ginger</h4>
-                        <p>Thinly sliced and naturally dried ginger — ideal for teas, extracts and herbal applications.</p>
+                    <div class="card shadow rounded p-3 h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <img class="w-100" src="{{ asset('assets/images/bg-image/ginger-1738098_1920.jpg') }}" alt="">
+                            <h4 class="mt-3">Dried Ginger</h4>
+                            <p>Thinly sliced and naturally dried ginger — ideal for teas, extracts and herbal applications.</p>
+                        </div>
+                        <button class="btn btn-warning">Request Sample</button>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 p-3">
-                    <div class="card shadow rounded p-3 h-100">
-                        <img class="w-100" src="{{ asset('assets/images/bg-image/spices-1191945_1920.jpg') }}" alt="">
-                        <h4 class="mt-3">Ginger Powder</h4>
-                        <p>Finely milled ginger powder (mesh 60–80), low moisture. Suitable for food, supplements and flavouring.</p>
+                    <div class="card shadow rounded p-3 h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <img class="w-100" src="{{ asset('assets/images/bg-image/spices-1191945_1920.jpg') }}" alt="">
+                            <h4 class="mt-3">Ginger Powder</h4>
+                            <p>Finely milled ginger powder (mesh 60–80), low moisture. Suitable for food, supplements and flavouring.</p>
+                        </div>
+                        <button class="btn btn-warning">Request Sample</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="w-100">
+    <div class="w-100" style="background-color: #f9fafb">
         <div class="container p-5">
             <p class="fw-bold display-5 text-center">Insight & Articles</p>
             <h5 class="text-center">Useful guides and articles about ginger quality, processing and export.</h5>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-12 col-sm-12 p-3">
+                    <div class="card shadow rounded p-3 h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <img class="w-100" src="{{ asset('assets/images/bg-image/pexels-joris-neyt-512471-1337585.jpg') }}" alt="">
+                            <h4 class="mt-3">Premium Ginger</h4>
+                            <p>Premium grade fresh ginger or pre-dried whole roots. Suitable for processing, re-exports, or retail.</p>
+                        </div>
+                        <button class="btn btn-warning">Request Sample</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 p-3">
+                    <div class="card shadow rounded p-3 h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <img class="w-100" src="{{ asset('assets/images/bg-image/ginger-1738098_1920.jpg') }}" alt="">
+                            <h4 class="mt-3">Dried Ginger</h4>
+                            <p>Thinly sliced and naturally dried ginger — ideal for teas, extracts and herbal applications.</p>
+                        </div>
+                        <button class="btn btn-warning">Request Sample</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 p-3">
+                    <div class="card shadow rounded p-3 h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <img class="w-100" src="{{ asset('assets/images/bg-image/spices-1191945_1920.jpg') }}" alt="">
+                            <h4 class="mt-3">Ginger Powder</h4>
+                            <p>Finely milled ginger powder (mesh 60–80), low moisture. Suitable for food, supplements and flavouring.</p>
+                        </div>
+                        <button class="btn btn-warning">Request Sample</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
